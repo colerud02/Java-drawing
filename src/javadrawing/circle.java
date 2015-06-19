@@ -7,10 +7,10 @@ import java.awt.event.MouseListener;
 
 import javax.swing.JComponent;
 
-public class circle extends JComponent implements MouseListener{
+public class Circle extends JComponent implements MouseListener{
 	int mousex;
 	int mousey;
-	public circle()
+	public Circle()
 	{
 		this.setBounds(0,0,1000,1000);
 	}
